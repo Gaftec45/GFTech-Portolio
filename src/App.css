@@ -1,38 +1,190 @@
-.App {
+.App-header {
+  background-color: #ffffff;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+
+
+
+@media (min-width: 992px) {
+  .wrapper {
+    padding: 60px 20px;
+  }
+
+  .text-and-banner {
+    flex: 1;
+  }
+
+  .banner-container {
+    max-width: 400px;
+    height: 350px;
+  }
+
+  .intro-text {
+    font-size: 1.4rem;
+  }
+
+  .button-container {
+    gap: 20px;
+  }
+
+  button {
+    padding: 12px 25px;
+    font-size: 1.1rem;
+  }
+} 
+
+
+
+.about {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.about p {
+  font-size: 1.2em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.past-work {
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.projects {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.App-link {
+.project {
+  background: #f9f9f9;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  width: calc(45% - 20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+  margin-top: 0;
+}
+
+/* Skills Styling */
+
+.skills {
+  margin: 20px;
+  padding: 20px;
+  background: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.skills h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills li {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column; /* Stack vertically by default */
+  align-items: flex-start;
+}
+
+.skills li span {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.skill-bar {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 4px;
+  height: 20px;
+  overflow: hidden;
+}
+
+.skill-bar-fill {
+  background-color: #4CAF50;
+  height: 100%;
+  border-radius: 4px;
+  transition: width 1s ease-in-out;
+  width: 0; /* Initial width set to 0 for the transition effect */
+}
+
+.skill-bar-fill.show {
+  width: var(--skill-level);
+}
+
+/* Enhancements for larger screens */
+@media (min-width: 768px) {
+  .skills li {
+    flex-direction: row; /* Align label and bar horizontally */
+    align-items: center;
+  }
+
+  .skills li span {
+    flex: 1;
+    margin-right: 10px;
+    margin-bottom: 0; /* Remove bottom margin */
+    white-space: nowrap; /* Ensure text doesn't wrap */
+  }
+
+  .skill-bar {
+    flex: 3;
+  }
+}
+
+@media (min-width: 992px) {
+  .skills {
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 900px;
+  }
+
+  .skills h2 {
+    font-size: 24px;
+  }
+
+  .skill-bar-fill {
+    transition-duration: 2s;
+  }
+}
+
+/* Contact Styling */
+
+.contact {
+  text-align: center;
+}
+
+.contact a {
   color: #61dafb;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contact a:hover {
+  text-decoration: underline;
 }
