@@ -1,6 +1,7 @@
 import React from 'react';
 import Typewriter from '../WebFun/Typewriter';
 import PRO from '../Image/3d-render.jpg';
+import CV from '../Image/GFTechCV.pdf';
 import '../Styling/Main.css';
 
 const Main = () => {
@@ -17,12 +18,12 @@ const Main = () => {
             />
           </div>
           <p className="intro-text">
-          In an ever-changing digital world where technology transforms our everyday lives, I stand ready as a software engineer, harnessing the power of code to create engaging online experiences.
+            In an ever-changing digital world where technology transforms our everyday lives, I stand ready as a software engineer, harnessing the power of code to create engaging online experiences.
           </p>
           <div className="button-container">
-            <button className="btn left-btn" > <a href="#contact">Hire me</a></button>
+            <button className="btn left-btn"><a href="#contact">Hire me</a></button>
             <button className="btn right-btn">
-            <a href="/path/to/your/file.pdf" download="Filename.pdf">Download CV </a>
+              <a href={CV} download="GFTechCV.pdf">Download CV</a>
             </button>
           </div>
         </div>
