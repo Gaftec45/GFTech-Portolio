@@ -12,7 +12,7 @@ function PastWork() {
       <div className="row">
         <div className="col-lg-6 mb-4">
           <div className="cardd h-100 shadow-sm">
-            <img src={ LOG } alt="Logistic Website" className="card-img-top" />
+            <img src={ LOG } alt="Logistic Website" className="card-img-top uniform-img" />
             <div className="card-body">
               <h3 className="card-title">Logistic Website</h3>
               {/* <p className="card-text">Description of Project 1.</p> */}
@@ -30,7 +30,7 @@ function PastWork() {
         </div>
         <div className="col-lg-6 mb-4">
           <div className="cardd h-100 shadow-sm">
-            <img src={ RES } alt="Restaurant Website" className="card-img-top" />
+            <img src={ RES } alt="Restaurant Website" className="card-img-top uniform-img" />
             <div className="card-body">
               <h3 className="card-title">Restaurant Website</h3>
               {/* <p className="card-text">Description of Project 2.</p> */}
@@ -48,10 +48,10 @@ function PastWork() {
         </div>
         <div className="col-lg-6 mb-4">
           <div className="cardd h-100 shadow-sm">
-            <img src={ TEG } alt="Restaurant Website" className="card-img-top" />
+            <img src={ TEG } alt="Portfolio Website For Tegafate" className="card-img-top uniform-img" />
             <div className="card-body">
               <h3 className="card-title">Portfolio Website For Tegafate</h3>
-              {/* <p className="card-text">Description of Project 2.</p> */}
+              {/* <p className="card-text">Description of Project 3.</p> */}
             </div>
             <div className="card-footer bg-white">
               <div className="tags">

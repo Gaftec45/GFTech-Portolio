@@ -31,10 +31,17 @@
     border-radius: 10px;
     padding: 5px 10px;
     font-size: 14px;
-    margin: 10px;
+    margin: 0;
   }
   
   .btn-primary {
     width: 100%;
     margin-top: 10px;
   }  
+
+  .uniform-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensures the image covers the box without stretching */
+  }
+  

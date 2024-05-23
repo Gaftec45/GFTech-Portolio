@@ -22,7 +22,7 @@ function Skills() {
           <FaHtml5 size={30} className="me-2" style={{ color: '#E34F26' }} /> HTML
         </li>
         <li className="skill-item m-3">
-          <FaCss3Alt size={30} className="me-2" style={{ color: '#1572B6' }} /> CSS
+          <FaCss3Alt size={30} className="me-2" style={{ color: '#1572B6' }} /> CSS Styling
         </li>
         <li className="skill-item m-3">
           <SiMongodb size={30} className="me-2" style={{ color: '#47A248' }} /> MongoDB
