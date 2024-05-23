@@ -12,7 +12,9 @@
   .card-body {
     flex-grow: 1; /* Allows the card body to expand to fill available space */
   }
-  
+  .card-title {
+    text-align: center;
+  }
   .card-footer {
     text-align: center; /* Center-aligns footer content */
   }
