@@ -4,3 +4,7 @@ Am about the success of this portfolio I built for myself and am very happy I ca
 And it was superb 😊☺️
 
 I love it I keep learning every day to improve myself and my skills 🤟💯
+
+To view my portfolio use the link below to access it... 
+
+https://www.gftech-ten.vercel.app
