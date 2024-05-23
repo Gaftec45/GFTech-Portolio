@@ -41,7 +41,7 @@ function PastWork() {
                 <span className="tag">MongoDB</span>
                 <span className="tag">Express</span>
               </div>
-              <a href="https://restaurant-app.vercel.app" target="_blank" rel="noopener noreferrer" className="btn btn-primary mt-2">View Project</a>
+              <a href="https://gourmet-dun.vercel.app" target="_blank" rel="noopener noreferrer" className="btn btn-primary mt-2">View Project</a>
             </div>
           </div>
         </div>
