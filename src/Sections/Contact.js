@@ -27,10 +27,9 @@ function Contact() {
     <section className="contact container mt-5">
       <div className="row justify-content-center">
         <div className="col-md-8">
-          <h2 className="mb-4 text-center">Got a job for me? Oh yes! I'm in</h2>
+          <h2 className="mb-4 text-center">Let's Connect</h2>
           <p className="text-center mb-3">
-            Let's Connect<br />
-            I'm currently looking for new opportunities, and my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+              I'm currently looking for new opportunities, and my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
           </p>
           <div className="d-flex justify-content-center gap-3">
             <a href="https://github.com/Gaftec45" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-decoration-none" style={{ color: '#181717' }} >
@@ -47,6 +46,7 @@ function Contact() {
             </a>
           </div> <br />
           <div className="cardd shadow-sm p-4 mb-4">
+          <h2 className="mb-4 text-center">Got a job for me? Oh yes! I'm in</h2>
             <form onSubmit={handleSubmit} className="mb-3">
               <div className="row g-3">
                 <div className="col-md-6">
