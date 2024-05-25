@@ -1,10 +1,4 @@
 /* Nav.css */
-/* #def {
-    position: fixed;
-    width: 100%;
-    left: 0;
-    top: 0;
-} */
 .navbar {
     padding: 10px 20px;
   }
@@ -25,76 +19,9 @@
   .navbar-nav .nav-link:hover {
     color: #007bff;
   }
-  
 
-/* Basic styles for the navbar 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    padding: 20px;
-    color: white;
-    position: fixed;
-    width: 100%;
-    left: 0;
-    top: 0;
-  }
-  
-  .navbar-brand a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.5em;
-  }
-  
-  .navbar-toggle {
-    display: none;
-    background: none;
-    border: none;
-    font-size: 1.5em;
-    color: white;
-    cursor: pointer;
-  }
-  
-  .navbar-links {
-    display: flex;
-    gap: 20px;
-  }
-  
-  .navbar-links a {
-    color: white;
-    text-decoration: none;
-    font-size: 1em;
-  }
-  
-  .navbar-links a:hover {
-    text-decoration: underline;
-  }
-  
-  Responsive styles
   @media (max-width: 768px) {
-    .navbar-toggle {
-      display: block;
-    }
-  
-    .navbar-links {
-      display: none;
-      flex-direction: column;
-      width: 100%;
-      text-align: center;
-      background-color: #444;
-    }
-  
-    .navbar-links.open {
-      display: flex;
-    }
-  
-    .navbar-links a {
+    .navbar {
       padding: 10px 0;
-      border-top: 1px solid #555;
     }
-  
-    .navbar-links a:first-child {
-      border-top: none;
-    }
-  } */
+  }

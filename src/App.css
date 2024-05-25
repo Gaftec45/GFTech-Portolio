@@ -32,6 +32,9 @@ h2 {
 
 
 @media (min-width: 992px) {
+  /* .App-header{
+    padding: 0;
+  } */
   .wrapper {
     padding: 60px 20px;
   }

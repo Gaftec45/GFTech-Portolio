@@ -8,3 +8,6 @@ I love it I keep learning every day to improve myself and my skills 🤟💯
 To view my portfolio use the link below to access it... 
 
 https://www.gftech-ten.vercel.app
+https://www.linkedin.com/in/gftech/
+https://instagram.com/gaaftech
+https://github.com/Gaftec45
