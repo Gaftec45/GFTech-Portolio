@@ -12,31 +12,31 @@ function Skills() {
       <img src={TECH} alt="Skills" className="img-fluid mb-4 rounded" />
       <h2 className="text-center mb-4">Technologies I've Used</h2>
       <ul className="list-unstyled d-flex flex-wrap justify-content-center">
-        <li className="skill-item m-3">
+        <li className="skill-item">
           <FaReact size={30} className="me-2" style={{ color: '#61DAFB' }} /> React.js
         </li>
-        <li className="skill-item m-3">
+        <li className="skill-item">
           <FaNodeJs size={30} className="me-2" style={{ color: '#339933' }} /> Node.js
         </li>
-        <li className="skill-item m-3">
+        <li className="skill-item">
           <FaHtml5 size={30} className="me-2" style={{ color: '#E34F26' }} /> HTML
         </li>
-        <li className="skill-item m-3">
-          <FaCss3Alt size={30} className="me-2" style={{ color: '#1572B6' }} /> CSS Styling
+        <li className="skill-item">
+          <FaCss3Alt size={30} className="me-2" style={{ color: '#1572B6' }} /> CSS
         </li>
-        <li className="skill-item m-3">
+        <li className="skill-item">
           <SiMongodb size={30} className="me-2" style={{ color: '#47A248' }} /> MongoDB
         </li>
-        <li className="skill-item m-3">
+        <li className="skill-item">
           <SiExpress size={30} className="me-2" style={{ color: '#000000' }} /> Express.js
         </li>
-        <li className="skill-item m-3">
+        <li className="skill-item">
           <SiJavascript size={30} className="me-2" style={{ color: '#F7DF1E' }} /> JavaScript
         </li>
-        <li className="skill-item m-3">
+        <li className="skill-item">
           <SiReactNative size={30} className="me-2" style={{ color: '#61DAFB' }} /> React Native
         </li>
-        <li className="skill-item m-3">
+        <li className="skill-item">
           <FaBootstrap size={30} className="me-2" style={{ color: '#7952B3' }} /> Bootstrap CSS
         </li>
       </ul>
