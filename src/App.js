@@ -9,6 +9,7 @@ import Main from './Sections/Main';
 import ScrollIndicator from './WebFun/ScrollIndicator';
 import Footer from './Navbar/Footer';
 import Testimonials from './Sections/Testimonials';
+// import ZindexSec from './Sections/z-index';
 
 
 
@@ -37,6 +38,9 @@ function App() {
           <Contact />
         </section>
       </>
+      {/* <section>
+        <ZindexSec />
+      </section> */}
       <footer>
         <Footer />
       </footer>

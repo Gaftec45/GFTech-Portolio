@@ -49,7 +49,7 @@ const Testimonials = () => {
         {reviews.map((review, index) => (
           <div key={index} className="p-2">
             <div className="cardd ">
-              <div className="cardd-body">
+              <div className="card-body">
                 <h5 className="card-title">{review.name}</h5>
                 <p className="card-text">{review.feedback}</p>
                 <div className="rating mb-2">

@@ -1,49 +1,80 @@
-.past-work .cardd {
-    display: flex;
-    flex-direction: column;
-    height: 100%;  /* Ensures all cards have the same height */
-  }
-  
-  .card-img-top {
-    height: 200px; /* Fixed height for images */
-    object-fit: cover; /* Ensures images cover the space without distorting */
-  }
-  
-  .card-body {
-    flex-grow: 1; /* Allows the card body to expand to fill available space */
-  }
-  .card-title {
-    text-align: center;
-  }
-  .card-footer {
-    text-align: center; /* Center-aligns footer content */
-  }
-  
-  .tags {
-    padding-bottom: 8px;
-    display: flex;
-    justify-content: center; /* Centers tags horizontally */
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-  
-  .tag {
-    background-color: #007bff; /* Bootstrap primary color */
-    color: white;
-    border-radius: 10px;
-    padding: 5px 10px;
-    font-size: 14px;
-    margin: 0;
-  }
-  
-  .btn-primary {
-    width: 100%;
-    margin-top: 10px;
-  }  
+.past-work {
+  padding: 40px 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
 
-  .uniform-img {
-    width: 100%;
-    height: auto;
-    object-fit: cover; /* Ensures the image covers the box without stretching */
-  }
-  
+.past-work h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.cardd {
+  /* position: relative; */
+  overflow: hidden;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.cardd:hover {
+  transform: scale(1.05);
+}
+
+.uniform-img {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  padding: 20px;
+  text-align: center;
+}
+
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.596);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 10;
+}
+
+.cardd:hover .card-overlay {
+  opacity: 1;
+}
+
+.card-details {
+  text-align: center;
+}
+
+.tags {
+  margin-bottom: 10px;
+}
+
+.tag {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 3px;
+  padding: 5px 10px;
+  margin: 5px;
+  display: inline-block;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
