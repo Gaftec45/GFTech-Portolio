@@ -2,13 +2,39 @@
 @import url('https://fonts.googleapis.com/css?family=Acme');
 
 
+body.light {
+  --bg-color: #f8f9fa;
+  --text-color: #333;
+  --card-bg-color: #ffffff;
+  --card-text-color: #000;
+  --card-hover-bg-color: #f2ecec;
+  --btn-primary-bg: #007bff;
+  --btn-primary-border: #007bff;
+  --btn-primary-hover-bg: #0056b3;
+  --btn-primary-hover-border: #004085;
+}
+
+body.dark {
+  --bg-color: #121212;
+  --text-color: #ffffff;
+  --card-bg-color: #1e1e1e;
+  --card-text-color: #ffffff;
+  --card-hover-bg-color: #333333;
+  --btn-primary-bg: #007bff;
+  --btn-primary-border: #007bff;
+  --btn-primary-hover-bg: #0056b3;
+  --btn-primary-hover-border: #004085;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Acme';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #fff;
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Acme'

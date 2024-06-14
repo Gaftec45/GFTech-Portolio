@@ -1,7 +1,7 @@
 import React from 'react';
 import Typewriter from '../WebFun/Typewriter';
 import PRO from '../Image/3d-render.jpg';
-import CV from '../Image/GFTechCV.pdf';
+import CV from '../Image/AbdulfataiGFTechCV.pdf';
 import '../Styling/Main.css';
 
 const Main = () => {
@@ -23,7 +23,7 @@ const Main = () => {
           <div className="button-container">
             <button className="btn left-btn"><a href="#contact">Hire me</a></button>
             <button className="btn right-btn">
-              <a href={CV} download="GFTechCV.pdf">Download CV</a>
+              <a href={CV} download="AbdulfataiGFTechCV.pdf">Download CV</a>
             </button>
           </div>
         </div>

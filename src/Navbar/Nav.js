@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import './Nav.css';
+import ThemeToggleButton from '../WebFun/ThemeToggleButton';
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,6 +33,9 @@ const Nav = () => {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#contact">Contact</a>
+            </li>            
+            <li className="nav-item">
+              <ThemeToggleButton />
             </li>
           </ul>
         </div>

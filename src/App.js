@@ -9,7 +9,9 @@ import Main from './Sections/Main';
 import ScrollIndicator from './WebFun/ScrollIndicator';
 import Footer from './Navbar/Footer';
 import Testimonials from './Sections/Testimonials';
+// import ThemeToggleButton from './WebFun/ThemeToggleButton';
 // import ZindexSec from './Sections/z-index';
+
 
 
 
@@ -19,9 +21,13 @@ function App() {
       <header className="App-header" id="home">
       <Nav />
       <ScrollIndicator />
+      {/* <ThemeToggleButton /> */}
       </header>
       <>
+      <section>
         <Main />
+      </section>
+
         <section id="about">
           <About />
         </section>
