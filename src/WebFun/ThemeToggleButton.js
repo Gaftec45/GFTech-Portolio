@@ -1,4 +1,4 @@
-/* import React, { useContext } from 'react';
+import React, { useContext } from 'react';
 import ThemeContext from '../ThemeContext/ThemeMode';
 
 const ThemeToggleButton = () => {
@@ -11,4 +11,4 @@ const ThemeToggleButton = () => {
   );
 };
 
-export default ThemeToggleButton; */
+export default ThemeToggleButton;

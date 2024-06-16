@@ -34,9 +34,6 @@ const Nav = () => {
             <li className="nav-item">
               <a className="nav-link" href="#contact">Contact</a>
             </li>            
-            <li className="nav-item">
-              <ThemeToggleButton />
-            </li>
           </ul>
         </div>
       </div>
