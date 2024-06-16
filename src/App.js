@@ -21,8 +21,8 @@ function App() {
     <div> <h1>Portfolio link</h1></div>
     <div className="App">
       <header className="App-header" id="home">
-      <Nav />
       <ScrollIndicator />
+      <Nav />
       {/* <ThemeToggleButton /> */}
       </header>
       <>
